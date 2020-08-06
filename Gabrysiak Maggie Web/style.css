@@ -1,0 +1,75 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  text-align: center;
+  margin: 10px;
+}
+
+/*   START WORK SECTION    */
+
+.workHeader {
+  text-align: center;
+  margin: 20px;
+}
+.workWrapper {
+  display: flex;
+  justify-content: center;
+}
+.workContainer {
+  height: 100vh;
+  max-width: 414px;
+}
+.workPic {
+  padding-top: 55px;
+  width: 100%;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/*   END WORK SECTION    */
+
+/*   START BOOK SECTION    */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookHeader {
+  text-align: center;
+}
+.bookWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookSlider {
+  margin: auto;
+  width: 225px;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.imageContainer {
+  display: flex;
+}
+.bookPage {
+  width: 225px;
+  height: 300px;
+}
+.btnDiv {
+  width: 100%;
+  text-align: center;
+}
+
+/*   END   BOOK SECTION    */
